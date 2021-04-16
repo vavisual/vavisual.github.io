@@ -1,0 +1,355 @@
+body{
+    background-color: rgb(221, 224, 224);
+}
+/* Utility */
+.tombol {
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: #68edfc;
+    border:0;
+}
+.hidden{
+    display: none;
+}
+
+
+/* Navbar */
+.navbar-brand {
+    font: 32px Viga;
+}
+
+.banner{
+    background-image: url(../assets/banner.jpg);
+    background-size: cover;
+    height: 650px;
+    position: relative;
+    z-index: -1;
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    bottom: 0;
+}
+
+.jumbotron .container {
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron .display-4 {
+    font-weight: 200;
+    font-size: 2.6em;
+    margin-top: 200px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+    color: #00E4FF;
+}
+.jumbotron .kecil {
+    font-weight: 200;
+    margin-top: 200px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-top: -30px;
+}
+.jumbotron .kecil span {
+    font-weight: 500;
+    color: #00E4FF;
+}
+.jumbotron .down{
+    width: 50px;
+    margin-top: 50px;
+}
+
+/* Info Panel */
+.info-panel {
+    background-color: white;
+    padding: 30px;
+    margin-top: -120px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.6);
+}
+
+.info-panel .gambar{
+    width: 100px;
+    margin-right: 10px;
+}
+
+.info-panel h4 {
+    
+    font-size: 14px;
+    font-weight: lighter;
+    color: #acacac;
+    margin-top: 20px;
+}
+
+.info-panel p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.judul-mobile{
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-top: 80px;
+}
+.judul.muncul{
+    opacity: 1;
+}
+.card-deck .paket{
+    margin-top: 20px;
+    opacity: 0;
+}
+.card-deck .paket.muncul{
+    opacity: 1;
+}
+
+.layanan{
+    background-color: #e9e9e9;
+    margin-top: 100px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.178);
+}
+
+
+.layanan .layanan-title{
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 18px;
+    text-align: center;
+}
+.layanan .layanan-isi{
+    padding-bottom: 10px;
+}
+.layanan .layanan-img{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.layanan .layanan-isi p{
+    font-weight: 500;
+    margin-top: 30px;
+    color: #0c0c0c;
+}
+.menu{
+    font-size: 12px;
+    color: #acacac;
+}
+.menu span{
+    font-weight: 400;
+    color: black;
+}
+.box-paket{
+    max-width: 100%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.178);
+}
+.detail-paket p{
+    font-size: 12px;
+}
+.detail-paket h3{
+    font-weight: 700;
+}
+.container-fluid {
+    overflow: hidden;
+    margin-top: 250px;
+    background: #f1f1f1;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+.modal .modal-dialog .modal-content .modal-body{
+    text-align: center;
+}
+/* s */
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 50px;
+    position: relative;
+  }
+  
+
+/* footer */
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #00E4FF !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+
+/* css about slider*/
+
+.judul-menu{
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 24px;
+    text-align: center; 
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background-color: #ffffff;
+  }
+.swiper-slide .imgBx{
+    width: 100%;
+    overflow: hidden;
+}
+.swiper-slide .imgBx img{
+    width: 100%;
+}
+.swiper-slide .detailBx{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.swiper-slide .detailBx h4{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 20px;
+}
+.swiper-slide .detailBx h4 span{
+    font-size: 16px;
+    color: #00E4FF;
+}
+.card .card-body p{
+    font-weight: 700;
+    text-align: justify;
+}
+.card .card-body p span{
+    font-weight: 200;
+}
+.card .link{
+    color: rgba(0,0,0,1);
+}
+
+/* yuotube */
+.video{
+    width: 20rem;
+    height: 15rem;
+    cursor: pointer;
+    position: relative;
+}
+.video img{
+    width: 100%;
+    height: 100%;
+    transform: scale(0.75);
+    transition: all 0.4s ease;
+}
+.video p{
+    color: white;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.6s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.video:hover img{
+    transform: scale(0.5);
+    filter: blur(4px) brightness(70%);
+  }
+  
+  .video:hover p{
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+
+
+/* DEKSTOP VERSI */
+@media (min-width: 992px) {
+    .navbar {
+        padding-top: 20px;
+    }
+    
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+
+    }
+
+    .nav-link:hover::after,
+    .nav-link.active::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #00E4FF;
+        margin: auto;
+        margin-bottom: -8px;
+        width: 50%;
+        padding-top: 5px;
+    }
+
+    .jumbotron {
+        margin-top: -90px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 60px;
+        margin-top: 100px;
+    }
+
+    .layanan .layanan-isi{
+        padding-left: 100px;
+        padding-bottom: 10px;
+    } 
+    .modal .modal-dialog .modal-content .modal-body{
+        text-align: justify;
+    }  
+
+    .judul{
+        font-weight: 700;
+        text-transform: capitalize;
+        font-size: 24px;
+        margin-top: 80px;
+    }
+}
