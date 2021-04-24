@@ -20,9 +20,11 @@ $(window).scroll(function() {
     var detail = $(this).attr('data-detail');
     var harga = $(this).attr('data-harga');
     var gambar = $(this).attr('data-gambar');
+    var link = $(this).attr('data-link');
 
     $('#detail').text(detail);
     $('#harga').text(harga);
+    $('#link').attr("href","https://wa.me/" +link);
     $('#gambar').attr("src","assets/paket/" +gambar);
   })
 /*  end modal */
